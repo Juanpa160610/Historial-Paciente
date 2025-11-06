@@ -2,21 +2,10 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-<<<<<<< HEAD
       <profile default="true" name="Default" enabled="true" />
-=======
->>>>>>> ef19bd91c44805cf9d7320bc038a4df624f8836d
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="historial" />
-      </profile>
     </annotationProcessing>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="historial" options="-parameters" />
-    </option>
+    <bytecodeTargetLevel>
+      <module name="historial" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
